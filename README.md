@@ -19,7 +19,7 @@ $ npm install npm -g
 ```
 $ git clone https://github.com/jaimindesai/react-typescript-webpack-postCSS.git
 ```  
-*Note: That will create a new folder called react-webpack-postCSS with all the files in.*
+*Note: That will create a new folder called react-typescript-webpack-postCSS with all the files in.*
 
 ### Install Project dependencies
 
@@ -38,7 +38,7 @@ $ code .
 
 ### Start development server with Hot Reloading
 ```
-$ npm run start
+$ npm start
 ```
 
 ### Done! 
