@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "target": "es5",
+    "sourceMap": true,
+    "lib": ["es6", "dom"],
+    "noEmit": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "allowUnusedLabels": false,
+    "jsx": "react",
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "noEmitHelpers": false
+  },
+  "exclude": [
+    "node_modules",
+    "src/**/__tests__"
+  ]
+}

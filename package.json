@@ -1,0 +1,77 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "react-typescript-webpack-postCSS",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "rm -rf build; webpack-dashboard -- node server",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:build": "jest --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaimindesai/react-typescript-webpack-postCSS.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack",
+    "postCSS"
+  ],
+  "author": "Jaimin Desai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaimindesai/react-typescript-webpack-postCSS/issues"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "react-router": "^3.0.0",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^2.4.35",
+    "@types/jest": "^15.1.32",
+    "@types/react": "^0.14.36",
+    "@types/react-dom": "^0.14.17",
+    "@types/react-redux": "^4.4.32",
+    "@types/react-router": "^2.0.36",
+    "@types/redux": "^3.5.30",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.24.0",
+    "enzyme": "^2.4.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "jest": "^15.1.1",
+    "json-loader": "^0.5.4",
+    "opener": "^1.4.2",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-grid-kiss": "^0.6.0",
+    "postcss-import": "^8.1.2",
+    "postcss-loader": "^0.13.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-scss": "^0.3.0",
+    "precss": "^1.4.0",
+    "raw-loader": "^0.5.1",
+    "react-addons-test-utils": "^15.3.2",
+    "react-hot-loader": "^3.0.0-beta.5",
+    "react-test-renderer": "^15.3.2",
+    "redux-devtools": "^3.3.1",
+    "style-loader": "^0.13.1",
+    "stylelint": "^7.3.1",
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.15.1",
+    "tslint-loader": "^2.1.5",
+    "tslint-react": "^1.0.0",
+    "typescript": "^2.0.3",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dashboard": "^0.2.0",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
