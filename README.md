@@ -1,7 +1,6 @@
 
 ### npm requirements
 * webpack
-* bower
 * npm version 3+
 * typescript
 
